@@ -600,9 +600,7 @@ export default function Home() {
                         <div className="text-[#64ffda] font-mono text-lg mb-4">05. What's Next?</div>
                         <h2 className="text-[#ccd6f6] text-4xl md:text-5xl font-bold mb-8">Get In Touch</h2>
                         <p className="text-[#8892b0] text-base md:text-lg mb-12 leading-relaxed">
-                            I'm currently looking for new opportunities and my inbox is always open.
-                            Whether you have a question or just want to say hi, I'll try my best to get
-                            back to you!
+                            My inbox is always open! Whether you want to discuss a potential collaboration, ask a question, or just say hi, I'll try my best to get back to you.
                         </p>
                         <a href={`mailto:${profileData?.email || 'karan.ai.engineer@gmail.com'}`}>
                             <Button className="px-8 py-6 border border-[#64ffda] text-[#64ffda] bg-transparent hover:bg-[#64ffda]/10 rounded font-mono">
